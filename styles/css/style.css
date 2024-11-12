@@ -1,0 +1,97 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #ff6f61;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link.active {
+  color: #ffffff;
+}
+
+.hero {
+  background-color: #ff6f61;
+  min-height: 50vh;
+  color: white;
+}
+
+.hero > div > h1 {
+  font-family: 'Lora', sans-serif;
+  font-weight: 800;
+}
+
+.hero > div > div > p {
+  color: white;
+}
+
+.carousel-inner .carousel-item h2,
+.carousel-inner .carousel-item p {
+  color: black;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: transparent;
+}
+
+.featurette {
+  color: #ff6f61;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  font-family: 'Lora', sans-serif;
+  font-weight: 600;
+}
+
+hr {
+  margin: 1rem 0;
+}
+
+form .form-control {
+  border-radius: 0.375rem;
+}
+
+footer {
+  background-color: #ff6f61;
+}
+
+footer p {
+  color: white;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #343a40;
+}
+
+footer img {
+  margin: 0 10px;
+}
+
+.featurette-img {
+  object-fit: cover;
+}
+@media (max-width: 768px) { 
+  .featurette-img {
+    height: 90%;
+    width: 100%
+  }
+}
+
+@media (max-width: 1366px) and (min-width: 768px) {
+  .featurette-img {
+    height: 96%;
+    width: 86%
+  }
+}
